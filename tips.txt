@@ -1,0 +1,25 @@
+http://www.cnblogs.com/0616--ataozhijia/p/7574462.html
+http://www.instructables.com/id/Using-Googles-repo-command-in-your-own-projects/
+
+
+git config --global core.quotepath false
+git config --global gui.encoding utf-8 
+git config --global i18n.commitencoding utf-8 
+git config --global i18n.logoutputencoding gbk 
+
+echo "export LESSCHARSET=utf-8" >> /etc/profile
+
+
+
+git config --global core.quotepath false
+git config --global i18n.commitEncoding gbk
+git config --global i18n.logOutputEncoding gbk
+git config --global gui.encoding utf-8
+
+
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+git config --global user.name "marslei"
+git config --global user.email "leicixiang4dev@gmail.com"
+
+ git commit --amend --allow-empty --author "marslei <leici>" 
